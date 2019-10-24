@@ -25,7 +25,7 @@ A 'Facet' groups all the values that appear in a column, and then allows you to 
 
 The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
-To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
+To create a Text Facet for a column, click on the drop down menu at the top of Column 8 and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel. If we are speculating that this column contains the names of photographers (which I am), we note some errors in our data to which we shall return. For the moment, hit `count` in the left hand panel to see the other use of Open Refine, that it gives you a sense of the themes in a column.
 
 The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings.
 
@@ -34,33 +34,17 @@ You can include multiple values from the facet in a filter at one time by using 
 You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Let's create a text facet
->1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
+>1. Click on the drop down menu at the top of Column 8 and choose `Facet > Text Facet`. The facet will then appear in the left hand panel. Choose the to sort by `count`.
 >2. To select a single value, just click the relevant line in the facet
 >3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)
 >3. You can 'invert' your selections to `exclude`
 >4. Include a value and then look at top to invert inclusion.
 {: .checklist}
 
->## Which licences are used for articles in this file?
-> Use a `text facet` for the `licence` column and answer these questions:
->
->1. What is the most common Licence in the file?
->2. How many articles in the file don't have a licence assigned?
->
->>## Solution
->>1. Create a facet for the 'Licence' column
->>2. Sort values by `count`
->>3. What is the most common Licence in the file? Answer: `CC BY`
->>4. How many articles in the file don't have a licence assigned? Answer: **6**
->{: .solution}
-{: .challenge}
-
 ## Filters
 As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
 
-As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
-
-You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
+As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter - e.g. `Ellis` - to display only rows which contain that text in the relevant column.
 
 ## Working with filtered data
 It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed.
@@ -86,12 +70,12 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
->## Find all publications without a DOI
->* Use the `Facet by blank` function to find all publications in this data set without a DOI
+>## Find all entries with a photographer name
+>* If we accept that Column 8 lists the surnames of photographers, use the `Facet by blank` function to find all photographs in this data set without a named photographer
 >
 >>## Solution
 >>
->>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
+>>1. On `Column 8` drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
 >>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
 >{: .solution}
@@ -106,14 +90,14 @@ The list of values in the facet will update as you make edits.
 
 >## Correct the Language values via a facet
 >
->* `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
+>* `Text facet` on the `Column 11` and correct the variation in the `Sir Joseph Causton & Sons` and `Sir Joseph Causton & Sons Ltd` values.
 >
 >>## Solution
 >>1. Create a Text facet on the Language column
->>2. Notice that there is both `EN` and `English`
->>3. Put the mouse over the `English` value
+>>2. Notice that there is both `Sir Joseph Causton & Sons` and `Sir Joseph Causton & Sons Ltd`
+>>3. Put the mouse over the `Sir Joseph Causton & Sons` value
 >>4. Click `Edit`
->>5. Type `EN` and click `Apply`
->>6. See how the Language facet updates
+>>5. Type `Sir Joseph Causton & Sons Ltd` and click `Apply`
+>>6. See how the `Column 11` facet updates
 >{: .solution}
 {: .challenge}
