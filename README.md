@@ -1,3 +1,7 @@
+**Fork for UK Archives and Records Association event [Data Wrangling with OpenRefine](https://www.archives.org.uk/events/viewevent/491-data-wrangling-with-openrefine.html), 14 November 2019.
+
+---
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)  
 
 # Maintainers for Library Carpentry: OpenRefine
