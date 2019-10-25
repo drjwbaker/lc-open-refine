@@ -28,10 +28,10 @@ For more information on the methods used to create Clusters, see [https://github
 
 For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box.
 
->## Use Clustering to clean up author data
+>## Use Clustering to clean up data
 >
->1. Split out the author names into individual cells using `Edit cells -> Split multi-valued cells`, using the pipe ( \| ) character as the separator
->2. Choose `Edit cells -> Cluster and edit` from the 'author' column.
->3. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate
+>1. Choose `Edit cells -> Cluster and edit` from `Column 5`.
+>2. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate
+>3. Move on to `Column 6` where the inconsistencies are greater.
 >4. Try changing the clustering method being used - which ones work well?
 {: .challenge}
