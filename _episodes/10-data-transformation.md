@@ -37,3 +37,9 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >5. In the 'New column name' type "Formatted Date"
 >6. In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
 {: .checklist}
+
+>## Create a single photographer column
+>1. Make sure you remove all Facets and Filters
+>2. On `Column 7` use the dropdown menu to select ```Edit cells->Transform```
+>6. In the 'Expression' box type the GREL expression ```cells["Column 8"].value + ", " + cells["Column 7"].value```
+{: .checklist}
