@@ -23,12 +23,11 @@ OpenRefine is most useful where you have data in a simple tabular format such as
 * Get an overview of a data set
 * Resolve inconsistencies in a data set, for example standardizing date formatting
 * Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells
-* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings
 * Enhance a data set with data from other sources
 
 Some common scenarios might be:
 
-* Where you want to know how many times a particular value (name, publisher, subject) appears in a column in your data
+* Where you want to know how many times a particular value (name, subject) appears in a column in your data
 * Where you want to know how values are distributed across your whole data set
 * Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
 
