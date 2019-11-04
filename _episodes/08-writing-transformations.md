@@ -23,7 +23,7 @@ GREL functions are written by giving a value of some kind (a text string, a date
 * ```value.function(options)```
 * ```function(value, options)```
 
-Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used. E.g. `value.toUppercase()` on `Date` column.
+Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used. E.g. `value.toUppercase()` on `Column 11`.
 
 Next to the 'Preview' option are options to view:
 
