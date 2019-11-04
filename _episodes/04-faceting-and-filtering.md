@@ -25,7 +25,7 @@ A 'Facet' groups all the values that appear in a column, and then allows you to 
 
 The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
-To create a Text Facet for a column, click on the drop down menu at the top of Column 8 and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel. If we are speculating that this column contains the names of photographers (which I am), we note some errors in our data to which we shall return. For the moment, hit `count` in the left hand panel to see the other use of Open Refine, that it gives you a sense of the themes in a column.
+To create a Text Facet for a column, click on the drop down menu at the top of Column 8 and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel. If we are speculating that Column 8 contains the family names of photographers (which I am), we note some errors in our data to which we shall return. For the moment, hit `count` in the left hand panel to see the other use of Open Refine, that it gives you a sense of the themes in a column.
 
 The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings.
 
@@ -70,14 +70,14 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
->## Find all entries with a photographer name
+>## Find all entries without a photographer name
 >* If we accept that Column 8 lists the surnames of photographers, use the `Facet by blank` function to find all photographs in this data set without a named photographer
 >
 >>## Solution
 >>
 >>1. On `Column 8` drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
->>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
+>>    * Select `include` on True in the facet to filter the list of lines on Column 8 that don't have a family name (4524 rows).
 >{: .solution}
 {: .challenge}
 
@@ -88,12 +88,12 @@ This approach is useful in relatively small facets where you might have small va
 
 The list of values in the facet will update as you make edits.
 
->## Correct the Language values via a facet
+>## Correct business names values via a facet
 >
 >* `Text facet` on the `Column 11` and correct the variation in the `Sir Joseph Causton & Sons` and `Sir Joseph Causton & Sons Ltd` values.
 >
 >>## Solution
->>1. Create a Text facet on the Language column
+>>1. Create a Text facet on the Language column. Hit `count`.
 >>2. Notice that there is both `Sir Joseph Causton & Sons` and `Sir Joseph Causton & Sons Ltd`
 >>3. Put the mouse over the `Sir Joseph Causton & Sons` value
 >>4. Click `Edit`
