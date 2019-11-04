@@ -33,9 +33,9 @@ OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we
 
 ### Splitting Cells
 
-To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol ( \| ).
+To see how this works in practice we can split author names into separate cells. If you look at Column 6 you should be able to see that there are multiple addresses in each cell separated by the word `and`.
 
-To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a `Split multi-valued cells` function:
+To work with the addresses names effectively in OpenRefine, it helps to have each address in an individual cell. To split the addresses into their own cells, we can use a `Split multi-valued cells` function:
 
 * Click the dropdown menu at the top of Column 6
 * Choose `Edit cells->Split multi-valued cells`
@@ -51,10 +51,10 @@ Now that we can split multi-valued cells, we'll cover how to join them back toge
 A common workflow with multi-valued cells is
 
 - split multi-valued cells into individual cells (what we did above)
-- modify/refine/clean individual cells
+- modify/refine/clean individual cells (e.g. here, either add or remove the town/city for each address part)
 - join multi-valued cells back together
 
-Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
+Modifying cells will be covered shortly, but for now we will cover how to join cells back together that have been split previously.
 
 * Click the dropdown menu at the top of Column 6
 * Choose `Edit cells->Join multi-valued cells`
