@@ -29,7 +29,7 @@ keypoints:
 > To import the data for the exercise below, follow the instructions in [Setup](https://librarycarpentry.github.io/lc-open-refine/setup.html) to run OpenRefine. The archive specific data we will use for this workshop is information extracted from [a copyright register which contains examples of Victorian photography sent to Stationer’s Hall in London]. The dataset was created by the UK National Archives and is called '[copy1-data_edit.csv](https://github.com/drjwbaker/lc-open-refine/blob/gh-pages/data/copy1-data_edit.csv)'. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the OpenRefine interface.*
 >
 >1. Once OpenRefine is launched in your browser, click `Create Project` from the left hand menu and select `Get data from This Computer`
->2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file which you have downloaded called `[opy1-data_edit.csv`
+>2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file which you have downloaded called `copy1-data_edit.csv`
 >3. Click `Next >>` - the next screen gives you options to ensure the data is imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >4. Click in the `Character encoding` box and set it to `UTF-8`
 >5. Ensure the first row isn't used to create the column headings by unchecking the box `Parse next 1 line(s) as column headers`
