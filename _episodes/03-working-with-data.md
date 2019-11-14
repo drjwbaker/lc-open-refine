@@ -33,7 +33,7 @@ OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we
 
 ### Splitting Cells
 
-To see how this works in practice we can split author names into separate cells. If you look at Column 6 you should be able to see that there are multiple addresses in each cell separated by the word `and`.
+To see how this works in practice we can split addresses into separate cells. If you look at Column 6 you should be able to see that there are multiple addresses in each cell separated by the word `and`.
 
 To work with the addresses names effectively in OpenRefine, it helps to have each address in an individual cell. To split the addresses into their own cells, we can use a `Split multi-valued cells` function:
 
