@@ -5,8 +5,6 @@ title: Setup
 
 ## Getting ready
 
-## Getting ready
-
 You need to install OpenRefine and download a data file to follow this lesson.
 
 ### Installing and running OpenRefine
