@@ -45,7 +45,7 @@ nstall the default version available from your distribution. For example, on Ubu
 
 ### Downloading the data
 
-You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
+You can download [copy1-data_edit.csv](https://github.com/drjwbaker/lc-open-refine.github.io/blob/gh-pages/data/copy1-data_edit.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
 
 ### Exiting OpenRefine
 
